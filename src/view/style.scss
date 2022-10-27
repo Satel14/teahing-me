@@ -1,0 +1,85 @@
+@import "antd/dist/antd.css";
+
+@font-face {
+    font-family: "DMSans-Regular";
+    src: url("./fonts/DMSans-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: "DMSans-Medium";
+    src: url("./fonts/Poppins-Medium.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url("./fonts/Poppins-Regular.ttf") format("truetype");
+}
+body {
+    min-width: 68.75rem;
+    background: #f5f5f5;
+}
+.header {
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &__section {
+        display: flex;
+        align-items: center;
+        border-bottom: none;
+        padding-right: 80px;
+    }
+    &-item {
+        font-family: "Poppins";
+    }
+    &__logo {
+        padding-left: 80px;
+    }
+}
+.main {
+    padding-left: 80px;
+    padding-top: 40px;
+    &__box {
+        width: 95%;
+        height: 1436px;
+        background: #ffffff;
+        border-radius: 16px;
+        padding-left: 40px;
+        padding-top: 24px;
+        &-item {
+            color: #18067d;
+        }
+        &-title {
+            padding-top: 32px;
+            margin-left: 40px;
+            font-family: "Poppins";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 28px;
+            color: #595959;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+            mix-blend-mode: darken;
+            height: 80px;
+        }
+    }
+    h3 {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 32px;
+        color: #18067d;
+    }
+    h5 {
+        width: 684px;
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: rgba(0, 0, 0, 0.45);
+    }
+}
+.profile__form{
+    display: flex;
+}
